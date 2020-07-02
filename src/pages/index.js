@@ -1,12 +1,13 @@
 import React from "react"
-import { Link } from 'gatsby'
+import Header from '../components/Header';
+import Footer from '../components/footer';
 
 const Index = () => {
   return (
     <>
+      <Header/>
       <h1>Hello Gatsby Bootcamp</h1>
-      <p><Link to="about" > About Developer </Link></p>
-      <p><Link to="contact" > Contact Developer</Link></p>
+      <Footer/>
     </>
   )
 }
