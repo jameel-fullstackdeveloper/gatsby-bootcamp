@@ -1,15 +1,12 @@
 import React from "react"
-import Header from '../components/Header';
-import Footer from '../components/footer';
+import Layout from "../components/layout";
 
 const Index = () => {
   return (
-    <>
-      <Header/>
-      <h1>Hello Gatsby Bootcamp</h1>
-      <Footer/>
-    </>
-  )
+        <Layout>
+          <h1>Hello Gatsby Bootcamp</h1>
+        </Layout>
+  );
 }
 
 
